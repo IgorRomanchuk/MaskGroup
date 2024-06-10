@@ -207,8 +207,6 @@ main {
   .button {
     width: 261px;
     height: 56px;
-    border-radius: 60px;
-    border: 0;
     background-color: #244C98;
   }
 
@@ -230,5 +228,47 @@ main {
     height: 360px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  main {
+    height: 482px;
+  }
+
+  .first-container {
+    width: 327px;
+    height: 262px;
+  }
+
+  .title {
+    font-size: 17px;
+    line-height: 27.2px;
+    height: 27px;
+    width: 279px;
+  }
+
+  .description {
+    max-width: 279px;
+    height: 105px;
+    font-size: 13px;
+    line-height: 20.8px;
+    margin-top: 14px;
+    margin-bottom: 18px;
+  }
+
+  .button {
+    width: 279px;
+    height: 56px;
+  }
+
+  .second-container {
+    width: 327px;
+    height: 220px;
+  }
+  
+  .second-container img {
+    width: 327px;
+    height: 220px;
   }
 }
