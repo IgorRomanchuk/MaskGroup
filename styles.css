@@ -16,6 +16,7 @@ main {
   height: 455px;
   border-radius: 10px;
   box-shadow: 0px 4px 4px 0px #00000040;
+  margin: 0 40px;
 }
 
 .first-container {
@@ -57,6 +58,7 @@ main {
 
 .description {
   max-width: 511px;
+  height: 81px;
   font-family: 'Manrope';
   font-size: 17px;
   font-weight: 400;
@@ -128,4 +130,38 @@ main {
   height: 2px;
   background-color: #1F4284;
   transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 1440px) {
+  main {
+    width: 1360px;
+    gap: 0;
+    box-shadow: none;
+  }
+
+  .first-container {
+    width: 680px;
+    height: 455px;
+    background-color: #EBF0FA;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .title {
+    font-size: 26px;
+    font-family: Manrope;
+    line-height: 41.6px;
+    height: 42px;
+    width: 173px;
+  }
+
+  .second-container {
+    width: 680px;
+    height: 455px;
+  }
+  
+  .second-container img {
+    width: 680px;
+    height: 455px;
+  }
 }
